@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <nav className={style.NavbarIteam}>
-      <h1><img className={style.navbarlogo} src={logo} alt="" /></h1>
+      <h1><img className={style.navbarlogo} src={logo} alt="" />RAS Tour</h1>
       <div className={style.menuicon} onClick={toggleMenu}>
         <i className={isMenuOpen ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
