@@ -13,7 +13,7 @@ const Navbar = () => {
   // Handle resize to reset menu state
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 768) {
+      if (window.innerWidth > 850) {
         setIsMenuOpen(false); // Reset menu state on larger screens
       }
     };

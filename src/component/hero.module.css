@@ -19,7 +19,7 @@
     position: absolute;
     z-index: -1;
 }
-h1{
+.head{
     font-size: 2.5rem;
     font-weight: bold;
     z-index: 1;
@@ -36,17 +36,22 @@ h1{
         height: 60vh;
     }
 }
+
+@media screen and (max-width:555px){
+    
+}
 .btn{
     background-color:  #008080;
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 0.6rem 1.1rem;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     margin-top: 10px;
+
 }
 .btn:hover{
     background-color: #005757;

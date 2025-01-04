@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     
     <div className={style.hero}>
-      <h1><span>Welcome to RAS Tour</span><br /> 
+      <h1 className={style.head}><span>Welcome to RAS Tour</span><br /> 
       <span>Your Journey Your Story!</span> 
       </h1>
       <span className={style.text}>Choose Your Favourite Destination</span>
