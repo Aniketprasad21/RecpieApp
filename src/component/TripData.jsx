@@ -13,4 +13,4 @@ function TripData(props) {
     </div>
   )
 }
-export default TripData
+export default TripData;
