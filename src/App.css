@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.welcome-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff4b5c; 
+    color: white;  
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 1000;
+    width: 80%;
+    max-width: 600px;
+    /* This will make the message a bit smaller on very small screens */
+}
+.error-message{
+    color: red;
+    font-size:1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 📱 Responsive Styles */
+@media (max-width: 768px) {
+    .welcome-message {
+        font-size: 1.2rem; /* Adjust font size for tablets */
+        padding: 15px; /* Slightly less padding */
+        width: 90%; /* Increase width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-message {
+        font-size: 1rem; /* Smaller font size for mobile */
+        padding: 10px; /* Even smaller padding */
+        width: 95%; /* Use most of the screen width */
+    }
+}
