@@ -17,7 +17,7 @@ h2 {
 form {
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color:#5D4037;
     border-radius: 20px;
     width: 60%;
     max-width: 500px; /* Prevents it from being too wide */
@@ -29,22 +29,22 @@ input[type="text"] {
     padding: 10px;
     border-radius: 20px;
     outline: none;
-    color: white;
-    background-color: transparent; /* Ensures text visibility */
+    color:whitesmoke; 
     border-color: transparent;
     flex-grow: 1;
     font-size: 16px;
+    background-color:#5D4037 !important;
 }
 
 input[type="text"]::placeholder {
-    color: white;
-    opacity: 1;
+    color:whitesmoke !important;
+    opacity: 1 !important;
 }
 
 button {
     background: transparent;
     border: none;
-    color: white;
+    color:whitesmoke;
     cursor: pointer;
     display: flex;
     align-items: center;

@@ -2,11 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     width: 100vw;
     height: 100vh;
+    background-color:#FFF5E1; 
 }
 
 .welcome-message {
@@ -14,7 +16,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ff4b5c; 
+    background-color: #5D4037; 
     color: white;  
     padding: 20px;
     font-size: 1.5rem;

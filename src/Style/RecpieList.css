@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 1rem;
+    
 }
  .card{
   
@@ -11,7 +12,7 @@
     margin:1rem;
     padding: 15px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(16, 1, 1, 0.178);
+    box-shadow: 0 4px 8px rgb(17, 12, 12);
     display: block;
     flex-direction: column;
     justify-content: space-between;
@@ -40,7 +41,7 @@
     padding-bottom: 20px;
 }
 .commonButton{
-    background-color: black;
+    background-color: #5D4037;
     color: white;
     padding: 10px 15px;
     border-radius: 12px;
